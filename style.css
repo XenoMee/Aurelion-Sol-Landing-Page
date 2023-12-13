@@ -11,3 +11,10 @@ body{
     color: goldenrod;
 }
 
+.attribution{
+    color: white;
+}
+
+.attribution a {
+    color: goldenrod;
+}
