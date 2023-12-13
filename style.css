@@ -20,14 +20,21 @@ nav ul{
     padding: 0;
 }
 
+.nav-btn{
+    padding: 0.5em 2em;
+    text-decoration: none;
+    background-color: #504099;
+    border-radius: 1rem
+}
+
+a {
+    color: goldenrod;
+}
+
 footer{
     text-align: center;
 }
 
 .attribution{
     color: white;
-}
-
-.attribution a {
-    color: goldenrod;
 }
