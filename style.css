@@ -11,6 +11,10 @@ body{
     color: goldenrod;
 }
 
+footer{
+    text-align: center;
+}
+
 .attribution{
     color: white;
 }
