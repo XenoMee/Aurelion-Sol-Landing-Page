@@ -25,6 +25,7 @@ header::after {
 .logo-image {
   width: 2rem;
   float: left;
+  border-radius: 50%;
   margin-top: 0.5rem;
   margin-left: 0.5rem;
 }
@@ -85,7 +86,6 @@ main {
 .break-content-shape {
   border: 0.1rem solid #87879d30;
   margin: auto;
-  font-weight: 700;
 }
 
 .slim-line {
