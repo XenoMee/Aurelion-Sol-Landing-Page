@@ -70,16 +70,15 @@ main {
 .top-section img {
   width: 100%;
   object-fit: cover;
-
 }
 
 .overview-section {
   width: 85%;
-  text-align: center;
 }
 
 .hero{
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 0.3rem;
 }
 
@@ -111,20 +110,44 @@ main {
 }
 
 .grid-abilities{
+    width: 20rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(5,1fr);
     place-items: center;
     gap: 2rem;
+    background-color: #0F0F0F50;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 .ability{
     display: flex;
     justify-content: center;
+    align-items: center ;
+}
+
+.ability-name{
+    font-size: 0.95rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+    color: #974EC3;
+}
+
+.W .ability-name{
+    margin-left: 0;
 }
 
 .ability img{
     border-radius: 50%;
+}
+
+.normal-ability{
+    float: left;
+}
+
+.recast-ability{
+    float: right;
 }
 
 .passive{
@@ -135,9 +158,14 @@ main {
     grid-column: span 2;
 }
 
+.W {
+    grid-column: span 2;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .E{
     grid-column: span 2;
-    place-items: center;
 }
 
 a {
