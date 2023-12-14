@@ -123,6 +123,10 @@ main {
     justify-content: center;
 }
 
+.ability img{
+    border-radius: 50%;
+}
+
 .passive{
     grid-column: span 2;
 }
