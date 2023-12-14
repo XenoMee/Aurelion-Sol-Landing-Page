@@ -66,6 +66,12 @@ main{
     object-fit: cover;
 }
 
+.main-section{
+    text-align: center;
+}
+
+
+
 a {
     color: goldenrod;
 }
