@@ -65,6 +65,7 @@ nav ul {
 main {
   display: grid;
   justify-items: center;
+  row-gap: 1rem;
 }
 
 .top-section img {
@@ -89,6 +90,7 @@ main {
 
 .hero-info-bio{
     text-align: start;
+    margin-bottom: 0;
 }
 
 .break-content-shape {
@@ -103,10 +105,6 @@ main {
 
 .break-content img{
     width: 3rem;
-}
-
-.abililties-section{
-    width: 80%;
 }
 
 .grid-abilities{
@@ -124,7 +122,11 @@ main {
 .ability{
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
+}
+
+.ability:not(.R,.R-empowered){
+    grid-column: span 2;
 }
 
 .ability-name{
@@ -150,22 +152,9 @@ main {
     float: right;
 }
 
-.passive{
-    grid-column: span 2;
-}
-
-.Q{
-    grid-column: span 2;
-}
-
 .W {
-    grid-column: span 2;
     width: 100%;
     justify-content: space-between;
-}
-
-.E{
-    grid-column: span 2;
 }
 
 a {
