@@ -112,8 +112,28 @@ main {
 
 .grid-abilities{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: repeat(5, max-content);
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr);
+    place-items: center;
+    gap: 2rem;
+}
+
+.ability{
+    display: flex;
+    justify-content: center;
+}
+
+.passive{
+    grid-column: span 2;
+}
+
+.Q{
+    grid-column: span 2;
+}
+
+.E{
+    grid-column: span 2;
+    place-items: center;
 }
 
 a {
