@@ -23,7 +23,8 @@ header::after{
 .logo-image{
     width: 2rem;
     float: left;
-    
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 nav{
