@@ -1,93 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap");
 
-*, *::after, *::before{
-    box-sizing: border-box;
-    margin-top: 0;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin-top: 0;
 }
 
-body{
-    min-height: 100svh;
-    font-family: 'EB Garamond', serif;
-    background-color:#232D3F;
-    color: goldenrod;
-    margin: 0;
+body {
+  min-height: 100svh;
+  font-family: "EB Garamond", serif;
+  background-color: #232d3f;
+  color: goldenrod;
+  margin: 0;
 }
 
-header::after{
-    content: '';
-    display:block;
-    clear: left;
-    margin-bottom: 1.5rem;
+header::after {
+  content: "";
+  display: block;
+  clear: left;
+  margin-bottom: 1.5rem;
 }
 
-
-.logo-image{
-    width: 2rem;
-    float: left;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
+.logo-image {
+  width: 2rem;
+  float: left;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
 }
 
-nav{
-    padding: 0.85rem;
+nav {
+  padding: 0.85rem;
 }
 
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.nav-btn{
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
-    text-decoration: none;
-    background-color: #504099;
-    border-radius: 1rem;
-    font-weight: 700;
-    text-transform: uppercase;
+.nav-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  background-color: #504099;
+  border-radius: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-main{
-    display: grid;
-    justify-items: center;
+main {
+  display: grid;
+  justify-items: center;
 }
 
-.top-section{
-    width: 100%;
+.top-section {
+  width: 100%;
 }
 
-.top-section img{
-    width: 100%;
-    object-fit: cover;
+.top-section img {
+  width: 100%;
+  object-fit: cover;
 }
 
-.main-section{
-    text-align: center;
+.main-section {
+  width: 85%;
+  text-align: center;
 }
 
-.hero-name{
-    margin-bottom: 0;
-    text-transform: uppercase;
+.hero-name {
+  margin-bottom: 0;
+  text-transform: uppercase;
 }
 
-.hero-title{
-    text-transform: uppercase;
-    margin-bottom: 1rem;
+.hero-title {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.break-content-shape {
+  border: 0.1rem solid #87879d30;
+  margin: auto;
+  font-weight: 700;
+}
+
+.slim-line {
+  width: 0.1rem;
+  height: 5rem;
+}
+
+.break-content img{
+    width: 3rem;
 }
 
 a {
-    color: goldenrod;
+  color: goldenrod;
 }
 
-footer{
-    text-align: center;
+footer {
+  text-align: center;
 }
 
-.attribution{
-    color: white;
+.attribution {
+  color: white;
 }
