@@ -17,6 +17,7 @@ header::after{
     content: '';
     display:block;
     clear: left;
+    /* margin-bottom: 1.5rem; */
 }
 
 
@@ -51,6 +52,19 @@ nav ul{
     text-transform: uppercase;
 }
 
+/* main{
+    display: grid;
+    justify-items: center;
+} */
+
+.top-section{
+    width: 100%;
+}
+
+/* .top-section img{
+    width: 100%;
+    object-fit: cover;
+} */
 
 a {
     color: goldenrod;
