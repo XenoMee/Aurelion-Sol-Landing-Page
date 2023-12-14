@@ -7,6 +7,14 @@
   margin-top: 0;
 }
 
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
 body {
   min-height: 100svh;
   font-family: "EB Garamond", serif;
@@ -20,7 +28,6 @@ header::after {
   content: "";
   display: block;
   clear: left;
-  margin-bottom: 1rem;
 }
 
 .logo-image {
@@ -63,23 +70,22 @@ main {
 .top-section img {
   width: 100%;
   object-fit: cover;
-  margin-bottom: 1rem;
+
 }
 
-.main-section {
+.overview-section {
   width: 85%;
   text-align: center;
+}
+
+.hero{
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
 }
 
 .hero-name {
   margin-bottom: 0;
   font-size: 2rem;
-  text-transform: uppercase;
-}
-
-.hero-title {
-  text-transform: uppercase;
-  margin-bottom: 2rem;
 }
 
 .hero-info-bio{
@@ -98,6 +104,16 @@ main {
 
 .break-content img{
     width: 3rem;
+}
+
+.abililties-section{
+    width: 80%;
+}
+
+.grid-abilities{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: repeat(5, max-content);
 }
 
 a {
