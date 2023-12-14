@@ -13,6 +13,12 @@ body{
     margin: 0;
 }
 
+.logo-image{
+    width: 3rem;
+    object-fit: cover;
+    float: left;
+}
+
 nav ul{
     display: flex;
     justify-content: center;
