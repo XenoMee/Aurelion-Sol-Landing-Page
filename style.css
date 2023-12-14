@@ -70,7 +70,15 @@ main{
     text-align: center;
 }
 
+.hero-name{
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
 
+.hero-title{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
 
 a {
     color: goldenrod;
