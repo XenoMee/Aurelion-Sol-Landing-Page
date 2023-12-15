@@ -74,7 +74,7 @@ blockquote{
 }
 
 .section-header img,
-.lor-lvl2-image{
+.lor{
   width: 100%;
   object-fit: cover;
 }
@@ -168,7 +168,8 @@ blockquote{
   margin: 0 auto;
 }
 
-.lor-lvl2-image{
+.lvl1-image,
+.lvl2-image{
   border-radius: 0.5rem;
 }
 
