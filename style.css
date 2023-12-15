@@ -75,7 +75,9 @@ main {
 
 .top-section blockquote{
   text-align: center;
+  background-color: #0F0F0F50;
 }
+
 
 .overview-section {
   width: 85%;
