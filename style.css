@@ -69,8 +69,10 @@ main {
 }
 
 blockquote{
+  width: 19rem;
   text-align: center;
   background-color: #0F0F0F50;
+  margin: 0 auto;
 }
 
 .section-header img,
@@ -93,6 +95,10 @@ blockquote{
 .hero-name {
   margin-bottom: 0;
   font-size: 2rem;
+}
+
+.hero-title{
+  color: #4942E4;
 }
 
 .hero-info-bio{
