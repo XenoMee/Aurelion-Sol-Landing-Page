@@ -24,7 +24,7 @@ body {
   margin: 0;
 }
 
-header::after {
+.top-header::after {
   content: "";
   display: block;
   clear: left;
@@ -68,18 +68,19 @@ main {
   row-gap: 1rem;
 }
 
-.top-section img {
-  width: 100%;
-  object-fit: cover;
-}
-
-.top-section blockquote{
+blockquote{
   text-align: center;
   background-color: #0F0F0F50;
 }
 
+.section-header img,
+.lor-lvl2-image{
+  width: 100%;
+  object-fit: cover;
+}
 
-.overview-section {
+.overview-section,
+.lore-text {
   width: 85%;
 }
 
@@ -161,6 +162,14 @@ main {
 .W {
     width: 100%;
     justify-content: space-between;
+}
+
+.lore-text{
+  margin: 0 auto;
+}
+
+.lor-lvl2-image{
+  border-radius: 0.5rem;
 }
 
 a {
